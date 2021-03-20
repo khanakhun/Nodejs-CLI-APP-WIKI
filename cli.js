@@ -72,12 +72,9 @@ if (command === "search") {
             ])
             .then((answers) => {
               var result = Api.wikiSubRes(answers).then((data) =>
-                console.log(`DetailsData: ${data.trim()}`)
+                console.log(`DetailsData: ${data}`)
               );
             });
-          //   console.log(`User found :
-          //     ---
-          //     searchResult: ${result}`);
         } else {
           console.log("User not found.");
         }
@@ -88,7 +85,7 @@ if (command === "search") {
       if (error.isTtyError) {
         // Prompt couldn't be rendered in the current environment
       } else {
-        // Something else went wrong
+        console.log("invalid Command type --help to see commands");
       }
     });
 } else {

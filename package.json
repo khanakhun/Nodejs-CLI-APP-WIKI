@@ -4,7 +4,7 @@
   "description": "Basic Nodejs CLI application",
   "main": "app.js",
   "scripts": {
-    "test": "node cli.js wiki",
+    "test": "node cli.js wiki"
   },
   "author": "kashan",
   "license": "ISC",
