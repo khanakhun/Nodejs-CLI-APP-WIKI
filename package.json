@@ -1,0 +1,17 @@
+{
+  "name": "nodecliapp",
+  "version": "1.0.0",
+  "description": "Basic Nodejs CLI application",
+  "main": "app.js",
+  "scripts": {
+    "test": "node cli.js wiki",
+  },
+  "author": "kashan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "inquirer": "^8.0.0",
+    "lodash": "^4.17.4",
+    "yargs": "^4.7.1"
+  }
+}
